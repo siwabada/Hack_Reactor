@@ -1,3 +1,4 @@
+//  유투브 재생목록의 각 동영상 시간을 합산하여 리턴한다.
 
 var times = document.querySelectorAll('.pl-video .pl-video-time .timestamp span');
 var total_time = 0;
