@@ -13,14 +13,12 @@ s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True, 다르면 False
 ```javascript
 function numPY(s){
   var result = false;
- 	var p = /p/gi; // global, insensitive flag
+  var p = /p/gi; // global, insensitive flag
   var y = /y/gi; // 모든값, 대소문자 구분없이
-
 	if ((s.match(p).length === s.match(y).length) ||
       (s.match(p), s.match(y) === null)){
       	result = true;
       }
-
   return result;
 }
 
@@ -37,3 +35,5 @@ console.log( numPY("Pyy") )
 - 모든 결과를 리턴하고 싶으면 정규표현식에 `g` 옵션을 붙인다.
 - [RegExp.exec(String)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec) 메소드는 정규표현식에 `g`옵션을 붙인 경우, 하나의 결과만 리턴한다. 하지만 여러번 메소드를 실행하면서 각 검색 결과에 접근 가능하다.
   - If your regular expression uses the "g" flag, you can use the exec() method multiple times to find successive matches in the same string.
+
+##다른사람 풀이
