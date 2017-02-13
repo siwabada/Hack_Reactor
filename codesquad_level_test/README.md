@@ -3,7 +3,7 @@
 # 문제1 : 1240 나라
 
 ## 문제풀이 과정 및 코드(JS)
-- [파일경로](/https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/1240_world.js)
+- [파일경로](https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/1240_world.js)
 - **문제 1-1 : 10진수 > 1240 숫자**
     - "0", "1", "2", "4" 아이템을 갖는 배열 arr를 선언
     - 매개변수 num을 4진수로 변환하여 변수 hex에 할당
