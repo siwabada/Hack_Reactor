@@ -4,7 +4,7 @@
 
 ## 문제풀이 과정 및 코드(JavaScript)
 - [파일경로](https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/1240_world.js)
-- *문제 1-1 풀이과정 : 10진수 > 1240 숫자*
+- **문제 1-1 풀이과정 : 10진수 > 1240 숫자**
     - "0", "1", "2", "4" 아이템을 갖는 배열 arr를 선언
     - 매개변수 num을 4진수로 변환하여 변수 hex에 할당
     - hex의 각 자리수를 배열 arr의 index 값으로 받아서 배열 내부의 해당 문자열을 추출
@@ -29,7 +29,7 @@ to1240(10);
 
 ```
 
-  - *문제 1-2 풀이과정: 1240숫자 > 10진수*
+  - **문제 1-2 풀이과정: 1240숫자 > 10진수**
     - "0", "1", "2", "4" 아이템을 갖는 배열 arr를 선언
     - 매개변수 str의 각 자리수 데이터를 index 변수에 할당
     - 배열 arr에서 각 index변수의 데이터와 일치하는 값을 검색하여 해당 값의 index를 추출한 후 문자열로 변환  
@@ -54,12 +54,15 @@ toDec("22");
 ```
 
 
+***
+
+
 # 문제 2 : [맵 문자열을 변환하고 출력하는 프로그램](https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/data_converting.js)
 
 ## 문제풀이 과정 및 코드(JavaScript)
 
 - [파일경로](https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/data_converting.js)
-- *문제 2-1 풀이과정 : 문자열을 읽어 json으로 저장하는 함수*
+- **문제 2-1 풀이과정 : 문자열을 읽어 json으로 저장하는 함수**
 
 
 ```javascript
@@ -85,7 +88,7 @@ function parseData(map_string){
 console.log(parseData(map));
 ```
 
-- *문제 2-2 풀이과정 : 1의 json을 2차원 배열로 변환하고 해달 배열을 화면에 출력하는 함수를 작성하세요.. 단 - 는 공백으로 바꾸어 출력합니다.*
+- **문제 2-2 풀이과정 : 1의 json을 2차원 배열로 변환하고 해달 배열을 화면에 출력하는 함수를 작성하세요.. 단 - 는 공백으로 바꾸어 출력합니다.**
 
 ```javascript
 
