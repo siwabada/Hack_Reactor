@@ -1,4 +1,4 @@
-// 10진수 > 1240 숫자
+// 문제 1-1 : 10진수 > 1240 숫자
 function to1240(num){
 	var result = "";
 	var arr = ["0", "1", "2", "4"];
@@ -11,7 +11,14 @@ function to1240(num){
 	return result;
 }
 
-// 1240 숫자 > 10진수
+// 문제 1-1 정답확인
+to1240(10);
+
+
+////////////////////////////////////////////////////////////////////////
+
+
+// 문제 1-2 : 1240 숫자 > 10진수
 function toDec(str){
 	var result = "";
 	var arr = ["0", "1", "2", "4"];
@@ -22,8 +29,7 @@ function toDec(str){
 	}
 
 	return parseInt(result,4);
-}.
+}
 
-// 정답확인
-console.log('to1240(10) : ', to1240(10));
-console.log('toDec("22") : ', toDec("22"));
+// 문제 1-2 정답확인
+toDec("22");
